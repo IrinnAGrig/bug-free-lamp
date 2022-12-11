@@ -4,10 +4,25 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+    
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <h1 className="welcome">Hello Irina!</h1>
+        <div className="flex">
+        <img src={logo} className="App-logo App-logo6" alt="logo" />
+        <img src={logo} className="App-logo App-logo5" alt="logo" />
+        <img src={logo} className="App-logo App-logo4" alt="logo" />
+        <img src={logo} className="App-logo App-logo3" alt="logo" />
+          <img src={logo} className="App-logo App-logo2" alt="logo" />
+        <img src={logo} className="App-logo App-logo1" alt="logo" />
+        <img src={logo} className="App-logo App-logo2" alt="logo" />
+        <img src={logo} className="App-logo App-logo3" alt="logo" />
+        <img src={logo} className="App-logo App-logo4" alt="logo" />
+        <img src={logo} className="App-logo App-logo5" alt="logo" />
+        <img src={logo} className="App-logo App-logo6" alt="logo" />
+        </div>
+        
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is your chance to learn React!
         </p>
         <a
           className="App-link"

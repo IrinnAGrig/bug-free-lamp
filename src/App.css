@@ -2,15 +2,41 @@
   text-align: center;
 }
 
-.App-logo {
+.App-logo1 {
   height: 40vmin;
   pointer-events: none;
+}
+.App-logo2 {
+  height: 20vmin;
+  pointer-events: none;
+}
+.App-logo3 {
+  height: 10vmin;
+  pointer-events: none;
+}
+.App-logo4 {
+  height: 5vmin;
+  pointer-events: none;
+}
+.App-logo5 {
+  height: 3vmin;
+  pointer-events: none;
+}
+.App-logo6 {
+  height: 1vmin;
+  pointer-events: none;
+}
+.welcome{
+  text-align: center; color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.flex{
+  display: flex;
 }
 
 .App-header {
